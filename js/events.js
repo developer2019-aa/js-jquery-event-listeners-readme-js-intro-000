@@ -4,9 +4,10 @@ function getIt() {
   })
 };
 
-function frameIt() {
-  $('.tasty').on('load', function () {
-    return "adding red frame!"
+function pressIt() {
+  $(document).on('keydown', function() {
+    if(key.which === 71)
+      alert ('G was pressed!')
   })
 }
 
