@@ -6,6 +6,7 @@ function getIt() {
 
 function frameIt() {
   $('.tasty').on('load', function () {
+    return "adding red frame!"
   })
 }
 
