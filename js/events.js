@@ -1,8 +1,14 @@
 function getIt() {
   $('p').on ('click', function() {
-    alert('Hey!')
+    alert('Hey!');
+  })
+};
+
+function frameIt() {
+  $('.tasty').on('load', function () {
   })
 }
+
 
 $(document).ready(function(){
 
